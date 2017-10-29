@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Actors</string>
+
+    <string name="nav_drawer_home">Home</string>
+    <string name="nav_drawer_settings">Settings</string>
+    <string name="nav_drawer_open">Open</string>
+    <string name="nav_drawer_close">Close</string>
 </resources>

@@ -27,6 +27,7 @@ public class FilmProvider {
         List<Film> films = new ArrayList<>();
         films.add(new Film(0, "Inglorious Basterds", 2009, christophWaltz));
         films.add(new Film(1, "Django Unchained", 2012, christophWaltz));
+        films.add(new Film(2, "James Bond Spectre", 2015, christophWaltz));
 
         return films;
     }
@@ -36,6 +37,7 @@ public class FilmProvider {
         List<String> names = new ArrayList<>();
         names.add("Inglorious Basterds");
         names.add("Django Unchained");
+        names.add("James Bond Spectre");
 
         return names;
     }
@@ -45,6 +47,7 @@ public class FilmProvider {
         List<Integer> years = new ArrayList<>();
         years.add(2009);
         years.add(2012);
+        years.add(2015);
 
         return years;
     }
@@ -65,6 +68,8 @@ public class FilmProvider {
                 return new Film(0, "Inglorious Basterds", 2009, christophWaltz);
             case 1:
                 return new Film(1, "Django Unchained", 2012, christophWaltz);
+            case 2:
+                return new Film(2, "James Bond Spectre", 2015, christophWaltz);
             default:
                 return null;
         }
